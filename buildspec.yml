@@ -7,7 +7,6 @@ phases:
   build:
     commands:
       - chmod +x gradlew
-      - ./gradlew test
       - ./gradlew bootJar
   post_build:
     commands:
